@@ -7,7 +7,8 @@ Students should use this [rubric](https://review.udacity.com/#!/projects/2696458
 
 **How to run:**
 ===============================
-press any up/down/right/left keys
+open index.html by a browser.
+press any up/down/right/left keys.
 
 
 **How to play:**

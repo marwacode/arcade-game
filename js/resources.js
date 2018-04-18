@@ -9,9 +9,6 @@
     var loading = [];
     var readyCallbacks = [];
 
-    var width;
-    var height;
-
     /* This is the publicly accessible image loading function. It accepts
      * an array of strings pointing to image files or a string for a single
      * image. It will then call our private image loading function accordingly.
@@ -72,9 +69,6 @@
              */
             resourceCache[url] = false;
             img.src = url;
-
-            width = img.width;
-            height = img.height;
         }
     }
 
@@ -85,14 +79,6 @@
     function get(url) {
         return resourceCache[url];
     }
-
-    // function getWidth() {
-    //     return width;
-    // }
-
-    // function getHeight() {
-    //     return height;
-    // }
 
     /* This function determines if all of the images that have been requested
      * for loading have in fact been properly loaded.
